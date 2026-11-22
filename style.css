@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.star{
+    position: absolute;
+    left: 20%;
+    top: -1%;
+    animation: move 2s infinite ;
+    width: 5px;
+    height: 5px;
+}
+.star span:nth-child(1){
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    width: 5px;
+    height: 1px;
+    margin-top: 2px;
+}
+.star span:nth-child(2){
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    width: 1px;
+    height: 5px;
+    margin-left: 2px;
+}
+.star span:nth-child(3){
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: linear-gradient(90deg, aqua, black);
+    transform: rotate(-45deg) translateY(-4px) translateX(3px);
+}
+@keyframes move{
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    100%{
+        transform: translateX(-1000px) translateY(1000px);
+    }
+}
+.star-container{
+    height: 100svhS;
+}
+.star:nth-child(1){
+    left: 57%;
+    animation-delay: 1.2s;
+}
+.star:nth-child(2){
+    left: 243%;
+    animation-delay: 1.7s;
+}
+.star:nth-child(3){
+    left: 21%;
+    animation-delay: 1.78s;
+}
+.star:nth-child(4){
+    left: 75%;
+    animation-delay: 1.8;
+}
+.star:nth-child(5){
+    left: 87%;
+    animation-delay: 1.9s;
+}
+.star:nth-child(6){
+    left: 43%;
+    animation-delay: 11s;
+}
+.star:nth-child(7){
+    left: 13%;
+    animation-delay: 13s;
+}
+.star:nth-child(8){
+    left: 34%;
+    animation-delay: 2s;
+}
+.star:nth-child(9){
+    left: 36%;
+    animation-delay: 3s;
+}
+.star:nth-child(10){
+    left: 64%;
+    animation-delay: 13s;
+}
+.star:nth-child(11){
+    left: 35%;
+    animation-delay: 12s;
+}
+.star:nth-child(12){
+    left: 12%;
+    animation-delay: 11.2s;
+}
+.star:nth-child(13){
+    left: 78%;
+    animation-delay: 1.2s;
+}
+.star:nth-child(14){
+    left: 1%;
+    animation-delay: 1.2s;
+}
+.star:nth-child(15){
+    left: 98%;
+    animation-delay: 1.2s;
+}
+.personal-container {
+    position: absolute;
+    scale: 0.7;
+    transform: translate(-50%, -50%);
+    animation: move 2s infinite;
+}
